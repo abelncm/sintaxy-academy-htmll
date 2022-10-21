@@ -31,15 +31,22 @@
 
 .suggestions {
     box-shadow: 0 0 5px rgba(55, 55, 55, 0.26);
-    border-radius: 30px;
-    overflow: hidden;
+    /* border-radius: 30px; */
+    /* overflow: hidden; */
     position: relative;
-    background: white;
-    margin-top: 20px
+    background: #eee;
+    margin-top: 20px;
+    border: 1px solid blue;
+    height: 500px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 .suggestions .item {
+    border: 1px solid red;
     padding: 20px 30px;
-    border-bottom: 1px solid rgb(224, 224, 224);
+    /* border-bottom: 1px solid rgb(224, 224, 224); */
 }
 .suggestions .item:hover {
     background: #eee;
@@ -50,5 +57,5 @@
     background: blue
 }
 .suggestions .item:last-child {
-    border: 0
+    /* border: 0 */
 }
