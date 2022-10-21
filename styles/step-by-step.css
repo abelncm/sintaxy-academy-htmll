@@ -1,0 +1,21 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.result-item {
+    background: white;
+    margin: 20px;
+    padding: 20px 30px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px #d8d8d8;
+}
+
+body {
+    /* background: url('../images/my-img.jpeg') bottom no-repeat #eee;
+    background-size: 50%; */
+    background: #eee
+}
+html {
+    height: 100%
+}

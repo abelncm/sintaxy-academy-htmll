@@ -1,0 +1,54 @@
+.search-bar {
+
+    padding: 20px;
+    margin: 20px auto;
+    text-align: center;
+    width: 80%;
+}
+
+.search-bar input,
+.search-bar button  {
+    padding: 15px 30px;
+    font-size: 17px;
+    border: 1px solid rgb(181, 181, 181);
+}
+
+.search-bar input {
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    width: 500px
+}
+
+.search-bar button {
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    width: 200px
+}
+
+.suggestions {
+    box-shadow: 0 0 5px rgba(55, 55, 55, 0.26);
+    border-radius: 30px;
+    overflow: hidden;
+    position: relative;
+    background: white;
+    margin-top: 20px
+}
+.suggestions .item {
+    padding: 20px 30px;
+    border-bottom: 1px solid rgb(224, 224, 224);
+}
+.suggestions .item:hover {
+    background: #eee;
+    cursor: pointer;
+    transition: .3s;
+}
+.suggestions .item:active {
+    background: blue
+}
+.suggestions .item:last-child {
+    border: 0
+}
